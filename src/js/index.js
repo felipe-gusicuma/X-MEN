@@ -40,7 +40,9 @@ nomePersonagem.innerText = personagem.getAttribute('data-name');
 
 //    passo 4 - alterar a descrição do personagem grande
 
-const nomePersonagem = document.getElementById('nome-description');
+const descriptionPersonagem = document.getElementById('nome-description');
+descriptionPersonagem.innerText = personagem.getAttribute('data-description');
+
 
    })
 })
